@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rock Salt'), local('RockSalt'), url(../fonts/RockSalt.woff) format('woff');
+}
+
+.red { color: #d60019; }
+
+h1 , .h1{
+  font-family: 'Rock Salt', cursive;
+  font-size: 28px;
+}
+
+.jumbotron h1, .jumbotron h1 {
+  color: #d60019;
+}
+
+@media screen and (min-width: 768px) {
+  .jumbotron h1, .jumbotron .h1 {
+    font-size: 54px;
+    line-height: 2;
+  }
+}
