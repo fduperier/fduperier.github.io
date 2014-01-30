@@ -1,36 +1,26 @@
-/* Google Analytics events */
-$(document).ready(function() {
+(function() {
+  "use strict";
 
-  $(document)
+  /* Google Analytics events */
+  var ga = ga || [];
+
+  var sendGAEvent = function(e) {
+    ga('send', 'event', 'Social Networks', 'click', e.data.label);
+  };
+
+  $('a.btn').each(function(index) {
     /** Personal **/
-    .on('click', '.g1-social-icons .g1-social-icon--facebook', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Facebook');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--instagram', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Instagram');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--vimeo', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Vimeo');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--youtube', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Youtube');
-    })
+    $(this).has('.fa-facebook').on('click', { label: "Facebook" }, sendGAEvent);
+    $(this).has('.fa-instagram').on('click', { label: "Instagram" }, sendGAEvent);
+    $(this).has('.fa-vimeo').on('click', { label: "Vimeo" }, sendGAEvent);
+    $(this).has('.fa-youtube').on('click', { label: "Youtube" }, sendGAEvent);
 
     /** Professional **/
-    .on('click', '.g1-social-icons .g1-social-icon--twitter', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Twitter');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--linkedin', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'LinkedIn');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--googleplus', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Google+');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--aboutme', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'About.me');
-    })
-    .on('click', '.g1-social-icons .g1-social-icon--klout', function() {
-      ga('send', 'event', 'Social Networks', 'click', 'Klout');
-    })
-  ;
-});
+    $(this).has('.fa-twitter').on('click', { label: "Twitter" }, sendGAEvent);
+    $(this).has('.fa-linkedin').on('click', { label: "LinkedIn" }, sendGAEvent);
+    $(this).has('.fa-google-plus').on('click', { label: "Google+" }, sendGAEvent);
+    $(this).has('.fa-about-me').on('click', { label: "About.me" }, sendGAEvent);
+    $(this).has('.fa-klout').on('click', { label: "Klout" }, sendGAEvent);
+  });
+
+})();
