@@ -36,6 +36,7 @@
       <div class="page-header">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#"><span class="fa fa-home"></span> Home</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#shareMe"><span class="fa"></span> Share me</a></li>
           <li><a href="http://www.frederic-duperier.com/contact"><span class="fa fa-envelope-o"></span> Contact me</a></li>
         </ul>
         <h3>&nbsp;</h3>
@@ -152,6 +153,31 @@
         <p>&copy; Fr&eacute;d&eacute;ric Dup&eacute;rier 2014</p>
       </div>
     </div>
+    
+    <!-- Modals -->
+    <div class="modal fade" id="shareMe" tabindex="-1" role="dialog" aria-labelledby="Share this page" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title" id="myModalLabel">Share me</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out Frédéric DUPERIER's Github page" data-hashtags="SoftwareEngineer #WebEntrepreneur" data-via="fduperier" data-lang="en">Share</a>
+                <div class="g-plus" data-action="share" data-annotation="none"></div>
+                <div class="fb-share-button" data-type="button_count"></div>
+              </div>
+              <div class="col-xs-12">
+                <script type="IN/Share"></script>
+                <div class="viadeo-share" data-display="btnlight" data-count="none" data-align="right" data-partner-id="ceOoOaDIgshxgijzlrujuqfedc"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -167,14 +193,10 @@
       })();
     </script>
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    <script>
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=607333449348013";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//connect.facebook.net/en_US/all.js#xfbml=1&appId=607333449348013";fjs.parentNode.insertBefore(js, fjs);}}(document,'script','facebook-jssdk');</script>
+
+    <!-- Sharing JS -->
+    <script src="//platform.linkedin.com/in.js" type="text/javascript">lang: en_US</script>
+    <script type="text/javascript">var viadeoWidgetsJsUrl=document.location.protocol+"//widgets.viadeo.com";(function(){var e=document.createElement('script');e.type='text/javascript';e.async=true;e.src=viadeoWidgetsJsUrl+'/js/viadeowidgets.js';var s=document.getElementsByTagName('head')[0];s.appendChild(e);})();</script>
   </body>
 </html>
