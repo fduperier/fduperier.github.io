@@ -20,6 +20,8 @@ $('#social-networks-links a.btn').each(function() {
   $(this).has('.fa-google-plus').on('click', { category: 'Social Networks', label: 'Google+' }, sendGAEvent);
   $(this).has('.fa-about-me').on('click', { category: 'Social Networks', label: 'About.me' }, sendGAEvent);
   $(this).has('.fa-klout').on('click', { category: 'Social Networks', label: 'Klout' }, sendGAEvent);
+  $(this).has('.fa-codeschool').on('click', { category: 'Social Networks', label: 'CodeSchool' }, sendGAEvent);
+  $(this).has('.fa-slideshare').on('click', { category: 'Social Networks', label: 'Slideshare' }, sendGAEvent);
 });
 
 $('#personal-website-links a.btn').each(function() {
