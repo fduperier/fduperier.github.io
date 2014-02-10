@@ -42,8 +42,8 @@
         <h3>&nbsp;</h3>
       </div>
 
-      <div class="jumbotron" itemscope itemtype="http://schema.org/Person">
-        <div class="row">
+      <div class="jumbotron">
+        <div class="row" itemscope itemtype="http://schema.org/Person">
           <div class="col-xs-12 col-sm-3 col-lg-3">
             <span id="profile-picture" class="thumbnail">
               <img src="./assets/images/profile.png" itemprop="image" />
@@ -51,7 +51,10 @@
           </div>
           <div class="col-xs-12 col-sm-9 col-lg-9">
             <h1 class="primary" itemprop="name">Fr&eacute;d&eacute;ric Dup&eacute;rier</h1>
-            <p class="lead" itemprop="description"><span itemprop="jobTitle">Software Engineer</span> in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Geneva</span></span>. <span itemprop="jobTitle">Web Entrepreneur</span>.<br />I usualy talk about Web, Technology, Startup, Innovation &amp; Motorcycle!</p>
+            <p class="lead" itemprop="description">
+              <span itemprop="jobTitle">Software Engineer</span> in <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="addressLocality">Geneva</span></span>. <span itemprop="jobTitle">Web Entrepreneur</span>.<br />
+              I usualy talk about Web, Technology, Startup, Innovation &amp; Motorcycle!
+            </p>
           </div>
         </div>
 
@@ -59,9 +62,39 @@
 
         <div class="row">
           <div class="col-xs-12 col-md-offset-1">
-            <h4 itemscope itemtype="http://schema.org/Enumeration"><span itemscope="name">Specialties</span>: <small itemscope="description">Technical Project Lead, Web &amp; Mobile Development, Agile Software Development, Test-Driven Development</small></h4>
-            <h4 itemscope itemtype="http://schema.org/Enumeration"><span itemscope="name">Technologies</span>: <small itemscope="description">Java / J2EE (Spring, JUnit, JBehave), Ruby / Rails, JavaScript (jQuery), HTML 5, CSS 3, REST, Git, JIRA</small></h4>
-            <h4 itemscope itemtype="http://schema.org/Enumeration"><span itemscope="name">Watching</span>: <small itemscope="description">AngularJS, Yeoman, SteroidsJS, Foundation, Browserify, GulpJS</small></h4>
+            <h4>
+              <span>Specialties</span>:
+              <small>
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Technical Project Lead</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Web &amp; Mobile Development</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Agile Software Development</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Test-Driven Development</span></span>
+              </small>
+            </h4>
+            <h4>
+              <span>Technologies</span>:
+              <small>
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Java / J2EE (Spring, JUnit, JBehave)</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Ruby / Rails</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">JavaScript (jQuery)</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">HTML 5</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">CSS 3</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">REST</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Git</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">JIRA</span></span>
+              </small>
+            </h4>
+            <h4>
+              <span>Watching</span>:
+              <small>
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">AngularJS</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Yeoman</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">SteroidsJS</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Foundation</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">Browserify</span></span>,
+                <span itemscope="specialty" itemtype="http://schema.org/Specialty"><span itemscope="name">GulpJS</span></span>
+              </small>
+            </h4>
           </div>
         </div>
       </div>
