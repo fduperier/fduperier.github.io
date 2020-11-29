@@ -20,7 +20,7 @@
 
 
 # Build settings
-remote_theme: fduperier/bolby-jekyll
+remote_theme: fduperier/bolby-jekyll@main
 #theme: bolby-jekyll
 sass:
   style: expanded
@@ -81,6 +81,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-coffeescript
+  - jekyll-remote-theme
+
 
 # SEO settings
 # Documentation at https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md

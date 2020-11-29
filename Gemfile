@@ -17,12 +17,15 @@ source "https://rubygems.org"
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 gem "github-pages", group: :jekyll_plugins
 
+gem "jekyll-remote-theme"
+
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-#  gem "jekyll-feed"
-#  gem "jekyll-seo-tag"
-#  gem "jekyll-sitemap"
-#  gem "jekyll-coffeescript"
+ gem "jekyll-feed"
+ gem "jekyll-seo-tag"
+ gem "jekyll-sitemap"
+ gem "jekyll-coffeescript"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
