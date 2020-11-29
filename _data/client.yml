@@ -1,0 +1,24 @@
+# Client template
+- name: Crédit Agricole Titres
+  picture: /assets/images/catitres.png
+
+- name: Etat de Genève
+  picture: /assets/images/etatge.svg
+
+- name: Storyginal
+  picture: /assets/images/storyginal.png
+
+- name: Amadeus IT Group
+  picture: /assets/images/amadeus.svg
+
+- name: We Are One
+  picture: /assets/images/wao.png
+
+- name: Tanit Services SA
+  picture: /assets/images/tanit.png
+
+- name: AiM Services SA
+  picture: /assets/images/aim.png
+
+- name: Hays (Suisse) SA
+  picture: /assets/images/hays.png

@@ -1,0 +1,28 @@
+# Social template
+- title: LinkedIn link
+  link: https://f-d.me/linkedin
+  icon: fa-linkedin
+
+- title: Github link
+  link: https://f-d.me/github
+  icon: fa-github
+
+- title: Gitlab link
+  link: https://f-d.me/gitlab
+  icon: fa-gitlab
+
+- title: Twitter link
+  link: https://f-d.me/twitter
+  icon: fa-twitter
+
+- title: Facebook link
+  link: https://f-d.me/fb
+  icon: fa-facebook
+
+- title: Instagram link
+  link: https://f-d.me/insta
+  icon: fa-instagram
+
+- title: WhatsApp link
+  link: https://f-d.me/whatsapp
+  icon: fa-whatsapp

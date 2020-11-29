@@ -1,0 +1,14 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+@charset "UTF-8";
+
+@import "{{ site.theme }}";
+
+.site-logo { display: none !important; }
+header.desktop-header-1 .vertical-menu { margin-top: 163px; }
+.service-box img { max-height: 140px; }
+//.timeline .timeline-container { margin-bottom: 1rem; }
+.client-item img { max-height: 60px; }

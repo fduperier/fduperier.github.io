@@ -1,0 +1,46 @@
+# Education Template
+- dates: 11/2017
+  name: Scrum Alliance
+  qualification: Certified Scrum Developer
+  link: https://www.scrumalliance.org/community/profile/fduperier
+
+- dates: 09/2011
+  name: Scrum.org
+  qualification: Professional Scrum Master I
+  link: https://www.scrum.org/user/231865
+
+- dates: 2007 - 2008
+  name: Université Laval
+  link: https://ulaval.ca
+  location: Québec, QC, Canada
+  qualification: Visitor Student
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Global average: 3.46
+    PhD level courses in Software Security & Artificial Intelligence
+
+- dates: 2005 - 2008
+  name: Polytech'Nice-Sophia
+  link: http://polytech.unice.fr
+  location: Sophia-Antipolis, France
+  qualification: Engineer (MSc) in Computer Sciences
+  quote: >
+    Short institution or course description (optional)
+  description: | # this will include new lines to allow paragraphs
+    Graduated magna cum laude
+    Scholarship for Excellence to study abroad
+
+- dates: 2004 - 2005
+  name: Lycée Camille Jullian
+  location: Bordeaux, France
+  qualification: 2nd year of preparatory class (MP)
+  description: |
+    Mathematics & Physics with Engineering Sciences
+
+- dates: 2003 - 2004
+  name: Lycée Victor Duruy
+  location: Mont-de-Marsan, France
+  qualification: 1st year of prepatory class (MPSI)
+  description: |
+    Mathematics, Physics & Engineering Sciences

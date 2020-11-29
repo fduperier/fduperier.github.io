@@ -1,0 +1,18 @@
+# Service template
+- title: Agile DevOps
+  picture: /assets/images/undraw_version_control_9bpv_yellow.svg
+  description: I can help you with designing a new CI/CD environment for your Agile projects.
+  style_class: text-light shadow-blue
+  color: '#6C6CE5'
+
+- title: Solutions Architecture
+  picture: /assets/images/undraw_programming_2svr_red.svg
+  description: Whatever your problems are, I can propose several solutions and then help you to pilot them.
+  style_class: shadow-yellow
+  color: '#FFD15C'
+
+- title: Web & Mobile Development
+  picture: /assets/images/undraw_progressive_app_m9ms_blue.svg
+  description: If you need a brand new Web or Mobile Application, I can create it for you.
+  style_class: text-light shadow-pink
+  color: '#FF4C60'
