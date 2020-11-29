@@ -20,8 +20,8 @@
 
 
 # Build settings
-#remote_theme: fduperier/bolby-jekyll
-theme: bolby-jekyll
+remote_theme: fduperier/bolby-jekyll
+#theme: bolby-jekyll
 sass:
   style: expanded
 kramdown:
