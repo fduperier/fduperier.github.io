@@ -51,7 +51,7 @@ description: >- # this means to ignore newlines
 
 # About Section
 about_title: About Me
-about_profile_image: "assets/images/profile.png"
+about_profile_image: "assets/images/profile.webp"
 about_content: >-
   I am <b>Frédéric Dupérier</b>, Solutions Architect & Entrepreneur.
   I am the founder of We Are One Sàrl, a consulting, software development and training company based in Geneva, Switzerland.
