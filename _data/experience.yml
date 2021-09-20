@@ -1,21 +1,25 @@
 # Experience template
-- dates: November 2018 - April 2020
+- dates: Since September 2021
+  company: Plato
+  link: https://www.platohq.com/mentors/frederic-duperier-248152534
+  job_title: Mentor
+  description: Mentor for engineering teams.
+
+
+- dates: Since January 2021
+  company: OpenClassrooms
+  link: https://openclassrooms.com/fr/paths/410-architecte-logiciel
+  job_title: Mentor
+  description: Mentor on the Software Architect and Java Application Development courses.
+
+
+- dates: November 2018 - September 2020
   company: We Are One Sàrl
   link: https://weareone.ch
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
-  job_title: Solutions Architect
-  quote: >
-    Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Responsible of the implementation of a continuous deployment solution for the applications of several banks and their middleware.
-#    * Audit of the legacy system
-#    * Proposal of a target solution to get to a continuous deployment
-#    * Developing a migration strategy
-#    * Project Management
-#    * Budget management
-#    * Lead internal workshops to coach the team to this new system
-#    * Team of 10 people (Devs & Ops)
+  job_title: IT Project Manager
+  description: Responsible of the implementation of a continuous deployment solution for the applications of several banks and their middleware.
 
 
 - dates: September 2017 - October 2018
@@ -24,22 +28,9 @@
   location: Geneva, Switzerland
   customer: State of Geneva
   job_title: Senior Technical Expert
-#  quote: >
-#    Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    **Solutions Architect** of e-voting 2.0 (Open source project)
-    **Technical Coordinator** of projects related to municipal, cantonal and federal elections.
-#    * Development of the technical architecture of applications and Web Services
-#    * Management of deliveries and follow-up of deployments
-#    * Coordination of non-functional qualification tests (performance, failover, ...)
-#    * Design new solutions in accordance with the standards of the DGSI
-#    * Impact analysis and identification of technical risks
-#    * Mentoring and coaching other developers (team of 10+ developers)
-#    * Estimation of development costs
-#    * Writing architecture and design documentations
-#    * Coordination of development, infrastructure and exploitation teams
-#    * Participation in continuous improvement of SIDP processes and tools
-
+  description: |
+    **Solutions Architect** of the new e-voting solution (Open source project)
+    **Technical Coordinator** of projects related to elections.
 
 - dates: October 2015 - August 2017
   company: We Are One Sàrl
@@ -47,16 +38,7 @@
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
   job_title: Software Architect
-  #  quote: >
-  #    Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Development of mobile applications for Crédit Agricole, LCL & BforBank.
-#    * Development of technical architecture for mobile applications and Web Services
-#    * Definition and maintenance of new quality standards
-#    * Automation of the delivery processes
-#    * Full-stack development of authentication
-#    * Mentoring and coaching other developers
-#    * Team of 5 developers
+  description: Development of mobile applications for Crédit Agricole, LCL & BforBank.
 
 
 - dates: September 2014 - September 2015
@@ -65,17 +47,7 @@
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
   job_title: DevOps Engineer
-#  quote: >
-#    Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
-    Responsible of deliverables for Web & Mobile applications.
-#    * Responsible of CI/CD for different applications
-#    * Definition and maintenance of quality standards
-#    * Mentoring software engineers
-#    * Interface between development and operation teams
-#    * Migration of development tools (SVN, Git, JIRA, SonarQube, Jenkins)
-#    * Development of tools to make developers life easier
-#    * Increased code quality by 50%.
+  description: Responsible of deliverables for Web & Mobile applications.
 
 
 - dates: February 2012 - August 2014
@@ -83,13 +55,7 @@
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
   job_title: Full-stack Web Developer
-  description: |
-    Development of online trading Web Applications.
-#    * Writing technical specifications
-#    * Definition of tasks and projects costs
-#    * Full-stack development of functionalities for both customers and employees
-#    * Design & development of technological solutions based on NoSQL
-#    * Maintenance of applications
+  description: Development of online trading Web Applications.
 
 
 - dates: March 2011 - June 2014
@@ -97,8 +63,8 @@
   location: Sophia-Antipolis, France
   note: (in addition to my daily job)
   job_title: Co-founder
-  description: |
-    Defining the company strategy & development of an innovative way to write and share stories.
+  description: Defining the company strategy & development of an innovative way to write and share stories.
+
 
 - dates: November 2010 - December 2011
   company: Hays (Suisse) SA
@@ -106,14 +72,7 @@
   location: Geneva, Switzerland
   customer: State of Geneva
   job_title: Senior Java/J2EE Developer
-  description: |
-    Development of fiscal Web Applications with Agile/Scrum methodology:
-#    * Backup of the Scrum Master
-#    * Coordination of the different teams engaged in projects
-#    * Design & Development of new fiscal Web Applications
-#    * Development of common services for all Web Applications
-#    * Maintenance of existing applications
-#    * Team of 10 people
+  description: Development of fiscal Web Applications with Agile/Scrum methodology.
 
 
 - dates: September 2008 - July 2010
@@ -122,13 +81,4 @@
   location: Sophia-Antipolis, France
   customer: Amadeus IT Group
   job_title: e-Business Solutions Engineer
-  description: |
-    Responsible of several projects (generating +1M € per year) within the Finnair Competency Center (6 people):
-#    * Direct communication with customers, users & remote IT team
-#    * International work background
-#    * Manage and Lead a team of 3 developers
-#    * Design of the new architecture for next Web applications
-#    * Design & development of new projects & functional changes
-#    * Writing functional & technical documents
-#    * Coordination between local and remote engaged teams
-
+  description: Responsible of several projects generating 1M+ € per year.

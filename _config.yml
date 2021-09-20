@@ -39,12 +39,12 @@ url: "https://www.frederic-duperier.com" # the base hostname & protocol for your
 
 # Personal info
 name: Frédéric Dupérier
-title: Frédéric Dupérier | Solutions Architect with Entrepreneurial mindset
+title: Frédéric Dupérier | Engineering Manager with Entrepreneurial mindset
 email: fduperier@gmail.com
-rotation_text: Solutions Architect, Project Technical Leader, Web & Mobile Developer, Certified Scrum Developer, Certified Scrum Master
+rotation_text: an Engineering Manager, a Solutions Architect, a Project Manager, a Certified Scrum Master
 
 description: >- # this means to ignore newlines
-  Frédéric Dupérier is a Solutions Architect with Entrepreneurial mindset.
+  Frédéric Dupérier is an Engineering Manager with Entrepreneurial mindset.
   He's the founder of We Are One Sàrl, a consulting, software development and training company based in Geneva, Switzerland.
 
 
@@ -53,7 +53,7 @@ description: >- # this means to ignore newlines
 about_title: About Me
 about_profile_image: "assets/images/profile.webp"
 about_content: >-
-  I am <b>Frédéric Dupérier</b>, Solutions Architect & Entrepreneur.
+  I am <b>Frédéric Dupérier</b>, Engineering Manager & Entrepreneur.
   I am the founder of We Are One Sàrl, a consulting, software development and training company based in Geneva, Switzerland.
 #about_action: Download CV
 about_link: '#'

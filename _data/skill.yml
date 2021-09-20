@@ -1,9 +1,12 @@
 # Skill template
-- name: Solutions Architecture
-  color: '#FFD15C'
-
-- name: Web & Mobile Development
+- name: Engineering Management
   color: '#FF4C60'
+  value: 60
+
+- name: Solution Architecture
+  color: '#FFD15C'
+  value: 75
 
 - name: Agile DevOps
   color: '#6C6CE5'
+  value: 90
