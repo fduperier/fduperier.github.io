@@ -3,14 +3,14 @@
   company: Plato
   link: https://www.platohq.com/mentors/frederic-duperier-248152534
   job_title: Mentor
-  description: Mentor for engineering teams.
+  description: Weekly meetings with Engineering managers to coach them and develop their leadership skills.
 
 
 - dates: Since January 2021
   company: OpenClassrooms
   link: https://openclassrooms.com/fr/paths/410-architecte-logiciel
   job_title: Mentor
-  description: Mentor on the Software Architect and Java Application Development courses.
+  description: Weekly meetings with students in Software Architecture and Java Application Development courses.
 
 
 - dates: November 2018 - September 2020
@@ -19,7 +19,7 @@
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
   job_title: IT Project Manager
-  description: Responsible of the implementation of a continuous deployment solution for the applications of several banks and their middleware.
+  description: Responsible for the implementation of a continuous deployment solution for the applications of several banks and their middleware.
 
 
 - dates: September 2017 - October 2018
@@ -37,7 +37,7 @@
   link: https://weareone.ch
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
-  job_title: Software Architect
+  job_title: Team Leader / Software Architect
   description: Development of mobile applications for Crédit Agricole, LCL & BforBank.
 
 
@@ -47,7 +47,7 @@
   location: Geneva, Switzerland
   customer: Crédit Agricole Titres
   job_title: DevOps Engineer
-  description: Responsible of deliverables for Web & Mobile applications.
+  description: Responsible for deliverables of Web & Mobile applications.
 
 
 - dates: February 2012 - August 2014
@@ -81,4 +81,4 @@
   location: Sophia-Antipolis, France
   customer: Amadeus IT Group
   job_title: e-Business Solutions Engineer
-  description: Responsible of several projects generating 1M+ € per year.
+  description: Responsible for several projects generating several millions € per year.

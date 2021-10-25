@@ -18,7 +18,7 @@
     Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Global average: 3.46
-    PhD level courses in Software Security & Artificial Intelligence
+    PhD courses in Software Security & Artificial Intelligence
 
 - dates: 2005 - 2008
   name: Polytech'Nice-Sophia
@@ -29,7 +29,7 @@
     Short institution or course description (optional)
   description: | # this will include new lines to allow paragraphs
     Graduated magna cum laude
-    Scholarship for Excellence to study abroad
+    Scholarship for Excellence based on all my university results
 
 - dates: 2004 - 2005
   name: Lycée Camille Jullian
