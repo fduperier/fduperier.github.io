@@ -33,7 +33,7 @@ favicon: assets/favicon.ico
 apple_touch_icon: true
 manifest: true
 lang: en_US
-gtag: UA-17165966-5
+gtag: G-BXR0JY47CX
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.frederic-duperier.com" # the base hostname & protocol for your site, e.g. http://example.com
 
