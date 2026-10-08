@@ -1,12 +1,17 @@
 # Experience template
-- dates: Since September 2021
+- dates: Since February 2022
+  company: Speach
+  link: https://speach.me
+  job_title: Head Of Engineering, Product & Design | Executive Committee Member
+  description: Speach is an AI-powered SaaS video SOPs & training platform GxP compliant designed specifically for regulated manufacturing environments.
+
+- dates: September 2021 - June 2022
   company: Plato
   link: https://www.platohq.com/mentors/frederic-duperier-248152534
   job_title: Mentor
   description: Weekly meetings with Engineering managers to coach them and develop their leadership skills.
 
-
-- dates: Since January 2021
+- dates: January 2021 - December 2021
   company: OpenClassrooms
   link: https://openclassrooms.com/fr/paths/410-architecte-logiciel
   job_title: Mentor
