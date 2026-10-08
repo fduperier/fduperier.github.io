@@ -8,7 +8,7 @@
   name: Stanford University
   qualification: Executive Education
   link: https://digitalcredential.stanford.edu/check/167B75384A4683740531BADD46AD2EFD41BA553633E4BD401B4B4265A149BC12U1lCeFJPa0pma0F0RE5VWndvWDlHZVdoWDNmeEZJSlZSblVPQTcwbHZrbG1SSDBk
-  quote: >
+  description: >
     AI-Driven Leadership: Strategries for the Future
 
 - dates: 08/2024
@@ -19,7 +19,7 @@
 - dates: 2022
   name: MIT Professional Education
   link: https://www.credential.net/8fa0a7bb-ad52-4621-8271-12c6fdced0a5#acc.JWKkFULV
-  quote: >
+  description: >
     Leadership & Innovation
 
 - dates: 11/2017
